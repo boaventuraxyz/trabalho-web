@@ -1,0 +1,83 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgb(82, 82, 82) 1px 1px 1px;
+    padding: 4em;
+}
+.logo-header{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-header > img {
+    width: 6.5em;
+    height: auto;
+}
+.links-header{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.links-header > a{
+    font-size: 1.2em;
+    font-family: 'merienda';
+    color: #303030;
+    font-weight: 600;
+}
+.links-header > a:hover{
+    color: #4d4d4d;
+    font-size: 1.25em;
+    transition: 500ms;
+}
+section{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../../images/WHITE0000.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2em;
+}
+.pizza {
+    width: 7em;
+}
+.card{
+    border: 2px solid rgb(0, 0, 0);
+    width: 15%;
+    border-radius: 10%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4em;
+    background-color: rgba(255, 255, 255, 0.897);
+}
+.card > p {
+    font-family: 'merienda';
+    font-size: 1.3em;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 4em 1em 4em;
+}
+.img-footer{
+    width: 3em;
+}
+.txt-footer{
+    font-family: 'roboto';
+    font-size: .9em;
+}
